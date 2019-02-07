@@ -1,0 +1,4 @@
+module CNN (
+input [2:0] x,
+outpu [0:0] y
+);

@@ -1,0 +1,5 @@
+module PE2(
+
+parameter Q= 15,
+parameter N=32
+);

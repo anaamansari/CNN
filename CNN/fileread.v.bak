@@ -1,0 +1,11 @@
+module file_read;
+ 
+  reg [31:0] RAM [0:65025];       
+  initial $readmemh("data.dat", RAM);
+  integer i;            
+  initial begin               
+    $display("data:");           
+    for (i=0; i < 7; i=i+1)         
+      $display("%d:%h",i,RAM[i]);           
+  end                
+endmodule

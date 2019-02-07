@@ -1,0 +1,76 @@
+module PE8#(
+parameter Q= 15,
+parameter N=32
+)
+(
+
+
+input [N-1:0] in1,
+input [N-1:0] in2,
+input [N-1:0] in3,
+input [N-1:0] in4,
+input [N-1:0] in5,
+input [N-1:0] in6,
+input [N-1:0] in7,
+input [N-1:0] in8,
+
+input [N-1:0] w1,
+input [N-1:0] w2,
+input [N-1:0] w3,
+input [N-1:0] w4,
+input [N-1:0] w5,
+input [N-1:0] w6,
+input [N-1:0] w7,
+input [N-1:0] w8,
+
+output [N-1:0] out
+);
+
+// Weights
+
+reg w_dud= 32'b1;
+
+wire [N-1:0] PE4_brdg1;
+wire [N-1:0] PE4_brdg2;
+
+reg [N-1:0] PE8_out;
+
+
+
+PE4 #(19,32) pe4_1 (
+		.in1(in1),
+		.in2(in2),
+		.in3(in3),
+		.in4(in4),
+		.w1(w1),
+		.w2(w2), 
+		.w3(w3),
+		.w4(w4),
+		.out(PE4_brdg1)
+	); 
+	
+	PE4 #(19,32) pe4_2 (
+		.in1(in5),
+		.in2(in6),
+		.in3(in7),
+		.in4(in8),
+		.w1(w5),
+		.w2(w6), 
+		.w3(w7),
+		.w4(w8),
+		.out(PE4_brdg2)
+	);
+	
+	
+	PE2 #(19,32) pe2_1 (
+	.in1(PE2_brdg1),
+	.in2(PE2_brdg2),
+	.w1(w_dud),
+	.w2(w_dud),
+	.out(PE4_out)
+	);
+	
+	
+	assign out= PE4_out;
+	
+	endmodule 

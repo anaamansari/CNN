@@ -1,0 +1,36 @@
+module benes16#(	
+//Parameterized values
+	parameter Q = 15,
+	parameter N = 32,
+	parameter b16=16,
+	parameter b8=14
+	)(
+output [N-1:0] y1,y2,y3,y4,
+input [N-1:0] x1,x2,x3,x4,
+input [b16-1:0] s,
+input [b8-1:0] s8_0,s8_1
+);
+
+wire [N-1:0] l0,l1,l2,l3,l4,l5,l6,l7,l8,l9,l10,l11,l12,l13,l14,l15;
+wire [N-1:0] m0,m1,m2,m3,m4,m5,m6,m7,m8,m9,m10,m11,m12,m13,m14,m15;
+
+	crbar2 c0(.x1(x0),.x2(x1),.y1(l0),.y2(l1),.s(s[0])); 
+	crbar2 c1(.x1(x2),.x2(x3),.y1(l2),.y2(l3),.s(s[1])); 
+	crbar2 c2(.x1(x4),.x2(x5),.y1(l4),.y2(l5),.s(s[2])); 
+	crbar2 c3(.x1(x6),.x2(x7),.y1(l6),.y2(l7),.s(s[3])); 
+	crbar2 c4(.x1(x8),.x2(x9),.y1(l8),.y2(l9),.s(s[4])); 
+	crbar2 c5(.x1(x10),.x2(x11),.y1(l10),.y2(l11),.s(s[5])); 
+	crbar2 c6(.x1(x12),.x2(x13),.y1(l12),.y2(l13),.s(s[6])); 
+	crbar2 c7(.x1(x14),.x2(x15),.y1(l14),.y2(l15),.s(s[7])); 
+	benes_8 b0(.x1(l0),.x2(l2),.x3(l4),.x4(l6),.x5(l8),.x6(l10),.x7(l12),.x8(l14),.y1(m0),.y2(m1),.y3(m2),.y4(m3),.y5(m4),.y6(m5),.y7(m6),.y8(m7),.s(s8_0)); 
+	benes_8 b1(.x1(l1),.x2(l3),.x3(l5),.x4(l7),.x5(l9),.x6(l11),.x7(l13),.x8(l15),.y1(m8),.y2(m9),.y3(m10),.y4(m11),.y5(m12),.y6(m13),.y7(m14),.y8(m15),.s(s8_1)); 
+	crbar2 c8(.x1(m0),.x2(m8),.y1(y0),.y2(y1),.s(s[8])); 
+	crbar2 c9(.x1(m1),.x2(m9),.y1(y2),.y2(y3),.s(s[9])); 
+	crbar2 c10(.x1(m2),.x2(m10),.y1(y4),.y2(y5),.s(s[10])); 
+	crbar2 c11(.x1(m3),.x2(m11),.y1(y6),.y2(y7),.s(s[11])); 
+	crbar2 c12(.x1(m4),.x2(m12),.y1(y8),.y2(y9),.s(s[12])); 
+	crbar2 c13(.x1(m5),.x2(m13),.y1(y10),.y2(y11),.s(s[13])); 
+	crbar2 c14(.x1(m6),.x2(m14),.y1(y12),.y2(y13),.s(s[14])); 
+	crbar2 c15(.x1(m7),.x2(m15),.y1(y14),.y2(y15),.s(s[15])); 
+
+endmodule

@@ -1,0 +1,4 @@
+Warning (10268): Verilog HDL information at qadd.v(20): always construct contains both blocking and non-blocking assignments File: C:/Users/aaansari/Documents/Asilomar_2017/CNN/qadd.v Line: 20
+Warning (10268): Verilog HDL information at qmults.v(150): always construct contains both blocking and non-blocking assignments File: C:/Users/aaansari/Documents/Asilomar_2017/CNN/qmults.v Line: 150
+Warning (10268): Verilog HDL information at input_configure.v(199): always construct contains both blocking and non-blocking assignments File: C:/Users/aaansari/Documents/Asilomar_2017/CNN/input_configure.v Line: 199
+Info (10281): Verilog HDL Declaration information at input_configure.v(4): object "I" differs only in case from object "i" in the same scope File: C:/Users/aaansari/Documents/Asilomar_2017/CNN/input_configure.v Line: 4

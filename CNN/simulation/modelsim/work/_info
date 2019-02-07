@@ -1,0 +1,807 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dC:/Users/aaansari/Documents/Asilomar_2017/CNN/simulation/modelsim
+vbenes16
+!s110 1511586547
+!i10b 1
+!s100 ;Kb:@mc4ffklHPE?nF8Bz1
+I@18L`5eA=`QI^;N_RaBL<0
+Z1 VDg1SIo80bB@j0V0VzS_@n1
+R0
+w1511577543
+8C:/Users/aaansari/Documents/Asilomar_2017/CNN/benes16.v
+FC:/Users/aaansari/Documents/Asilomar_2017/CNN/benes16.v
+L0 3
+Z2 OV;L;10.5b;63
+r1
+!s85 0
+31
+!s108 1511586547.000000
+!s107 C:/Users/aaansari/Documents/Asilomar_2017/CNN/benes16.v|
+!s90 -reportprogress|300|-work|work|C:/Users/aaansari/Documents/Asilomar_2017/CNN/benes16.v|
+!i113 1
+Z3 o-work work
+Z4 tCvgOpt 0
+vbenes32
+Z5 !s110 1511586549
+!i10b 1
+!s100 kAZNB[L0?RJjLUH@aMBQ;2
+IgR986zd4[][faZQ_<cLDW1
+R1
+R0
+Z6 w1511585679
+Z7 8C:/Users/aaansari/Documents/Asilomar_2017/CNN/benes32.v
+Z8 FC:/Users/aaansari/Documents/Asilomar_2017/CNN/benes32.v
+L0 3
+R2
+r1
+!s85 0
+31
+Z9 !s108 1511586549.000000
+Z10 !s107 C:/Users/aaansari/Documents/Asilomar_2017/CNN/benes32.v|
+Z11 !s90 -reportprogress|300|-work|work|C:/Users/aaansari/Documents/Asilomar_2017/CNN/benes32.v|
+!i113 1
+R3
+R4
+vbenes4
+Z12 !s110 1511643938
+!i10b 1
+!s100 o?NNX[BiYf_hi5DYzO>jP1
+I0Y`IKghXaUc3c7m]=71`33
+R1
+R0
+Z13 w1511643251
+Z14 8C:/Users/aaansari/Documents/Asilomar_2017/CNN/benes4.v
+Z15 FC:/Users/aaansari/Documents/Asilomar_2017/CNN/benes4.v
+L0 2
+R2
+r1
+!s85 0
+31
+Z16 !s108 1511643938.000000
+Z17 !s107 C:/Users/aaansari/Documents/Asilomar_2017/CNN/benes4.v|
+Z18 !s90 -reportprogress|300|-work|work|C:/Users/aaansari/Documents/Asilomar_2017/CNN/benes4.v|
+!i113 1
+R3
+R4
+vbenes8
+Z19 !s110 1511586545
+!i10b 1
+!s100 gdAbPj4bPLBG<9hgzaH1:3
+IOf=fZRbXWEY;LmH8VOKi;2
+R1
+R0
+Z20 w1511578052
+Z21 8C:/Users/aaansari/Documents/Asilomar_2017/CNN/benes8.v
+Z22 FC:/Users/aaansari/Documents/Asilomar_2017/CNN/benes8.v
+L0 2
+R2
+r1
+!s85 0
+31
+Z23 !s108 1511586545.000000
+Z24 !s107 C:/Users/aaansari/Documents/Asilomar_2017/CNN/benes8.v|
+Z25 !s90 -reportprogress|300|-work|work|C:/Users/aaansari/Documents/Asilomar_2017/CNN/benes8.v|
+!i113 1
+R3
+R4
+vCNN
+!s110 1511586503
+!i10b 1
+!s100 =:dbaWkB[2^J>:zXjczRW2
+IF4DZ0flPSSE^Kac41JA?H0
+R1
+R0
+w1507279012
+8C:/Users/aaansari/Documents/Asilomar_2017/CNN/CNN.v
+FC:/Users/aaansari/Documents/Asilomar_2017/CNN/CNN.v
+L0 1
+R2
+r1
+!s85 0
+31
+!s108 1511586503.000000
+!s107 C:/Users/aaansari/Documents/Asilomar_2017/CNN/CNN.v|
+!s90 -reportprogress|30|-work|work|C:/Users/aaansari/Documents/Asilomar_2017/CNN/CNN.v|
+!i113 1
+R3
+R4
+n@c@n@n
+vcrbar2
+Z26 !s110 1511643935
+!i10b 1
+!s100 [g;c^GnCe0HccE]6JQNTU3
+I[MW5hOdKkaiZ^I11gczbZ2
+R1
+R0
+Z27 w1511575608
+Z28 8C:/Users/aaansari/Documents/Asilomar_2017/CNN/crbar2.v
+Z29 FC:/Users/aaansari/Documents/Asilomar_2017/CNN/crbar2.v
+L0 2
+R2
+r1
+!s85 0
+31
+Z30 !s108 1511643935.000000
+Z31 !s107 C:/Users/aaansari/Documents/Asilomar_2017/CNN/crbar2.v|
+Z32 !s90 -reportprogress|300|-work|work|C:/Users/aaansari/Documents/Asilomar_2017/CNN/crbar2.v|
+!i113 1
+R3
+R4
+vfile_read
+Z33 !s110 1511586504
+!i10b 1
+!s100 f3VR<ZU1NOE?a8A=Q8Dn21
+IQ2:?hIOKMcW^Fc>@1QX[:2
+R1
+R0
+w1507838509
+8C:/Users/aaansari/Documents/Asilomar_2017/CNN/fileread.v
+FC:/Users/aaansari/Documents/Asilomar_2017/CNN/fileread.v
+L0 1
+R2
+r1
+!s85 0
+31
+Z34 !s108 1511586504.000000
+!s107 C:/Users/aaansari/Documents/Asilomar_2017/CNN/fileread.v|
+!s90 -reportprogress|30|-work|work|C:/Users/aaansari/Documents/Asilomar_2017/CNN/fileread.v|
+!i113 1
+R3
+R4
+vinput_configure
+R33
+!i10b 1
+!s100 CbG6UFdm[a]e@NP7oPX[c1
+I[Z;MSd_fz08NbYk6R@:=z0
+R1
+R0
+Z35 w1509251963
+Z36 8C:/Users/aaansari/Documents/Asilomar_2017/CNN/input_configure.v
+Z37 FC:/Users/aaansari/Documents/Asilomar_2017/CNN/input_configure.v
+L0 2
+R2
+r1
+!s85 0
+31
+R34
+Z38 !s107 C:/Users/aaansari/Documents/Asilomar_2017/CNN/input_configure.v|
+Z39 !s90 -reportprogress|30|-work|work|C:/Users/aaansari/Documents/Asilomar_2017/CNN/input_configure.v|
+!i113 1
+R3
+R4
+vlayer1
+R33
+!i10b 1
+!s100 JVVjTWNKBLU6?g7hACGO;1
+ISGUT8`E8RkFL0FEBaIGNB3
+R1
+R0
+Z40 w1508988671
+Z41 8C:/Users/aaansari/Documents/Asilomar_2017/CNN/layer1.v
+Z42 FC:/Users/aaansari/Documents/Asilomar_2017/CNN/layer1.v
+L0 3
+R2
+r1
+!s85 0
+31
+R34
+Z43 !s107 C:/Users/aaansari/Documents/Asilomar_2017/CNN/layer1.v|
+Z44 !s90 -reportprogress|30|-work|work|C:/Users/aaansari/Documents/Asilomar_2017/CNN/layer1.v|
+!i113 1
+R3
+R4
+vlayer2
+Z45 !s110 1511586505
+!i10b 1
+!s100 ii3I>__HcC]GUg5k6eg?k1
+I[_UXd8i8TX?08G3L^lHXY0
+R1
+R0
+Z46 w1508989785
+Z47 8C:/Users/aaansari/Documents/Asilomar_2017/CNN/layer2.v
+Z48 FC:/Users/aaansari/Documents/Asilomar_2017/CNN/layer2.v
+L0 3
+R2
+r1
+!s85 0
+31
+Z49 !s108 1511586505.000000
+Z50 !s107 C:/Users/aaansari/Documents/Asilomar_2017/CNN/layer2.v|
+Z51 !s90 -reportprogress|30|-work|work|C:/Users/aaansari/Documents/Asilomar_2017/CNN/layer2.v|
+!i113 1
+R3
+R4
+vlayer3
+R45
+!i10b 1
+!s100 4GCzj4[35KjAh6?`QQ2c?0
+Io9nf9G4A9[R6g9?T@@_Sg3
+R1
+R0
+Z52 w1508990209
+Z53 8C:/Users/aaansari/Documents/Asilomar_2017/CNN/layer3.v
+Z54 FC:/Users/aaansari/Documents/Asilomar_2017/CNN/layer3.v
+L0 3
+R2
+r1
+!s85 0
+31
+R49
+Z55 !s107 C:/Users/aaansari/Documents/Asilomar_2017/CNN/layer3.v|
+Z56 !s90 -reportprogress|30|-work|work|C:/Users/aaansari/Documents/Asilomar_2017/CNN/layer3.v|
+!i113 1
+R3
+R4
+vlayer5
+R45
+!i10b 1
+!s100 3IJd@:QXh9il?T?5dbMcj0
+ICZ=fIm4W@66Y7BPbf8J]`2
+R1
+R0
+Z57 w1509009875
+Z58 8C:/Users/aaansari/Documents/Asilomar_2017/CNN/layer5.v
+Z59 FC:/Users/aaansari/Documents/Asilomar_2017/CNN/layer5.v
+L0 3
+R2
+r1
+!s85 0
+31
+R49
+Z60 !s107 C:/Users/aaansari/Documents/Asilomar_2017/CNN/layer5.v|
+Z61 !s90 -reportprogress|30|-work|work|C:/Users/aaansari/Documents/Asilomar_2017/CNN/layer5.v|
+!i113 1
+R3
+R4
+vmux
+R45
+!i10b 1
+!s100 S:6Ahih[;nFV?_EKg]:5G1
+I7]ZZ^VOYSCe?9Md9BRRC80
+R1
+R0
+w1508976287
+8C:/Users/aaansari/Documents/Asilomar_2017/CNN/mux.v
+FC:/Users/aaansari/Documents/Asilomar_2017/CNN/mux.v
+L0 7
+R2
+r1
+!s85 0
+31
+R49
+!s107 C:/Users/aaansari/Documents/Asilomar_2017/CNN/mux.v|
+!s90 -reportprogress|30|-work|work|C:/Users/aaansari/Documents/Asilomar_2017/CNN/mux.v|
+!i113 1
+R3
+R4
+vPE2
+Z62 !s110 1511586506
+!i10b 1
+!s100 mTY1j7@gUa[ToC?>CCb`23
+I>TS:@bHm3nfGT^j9lHMHe1
+R1
+R0
+Z63 w1508278267
+Z64 8C:/Users/aaansari/Documents/Asilomar_2017/CNN/PE2.v
+Z65 FC:/Users/aaansari/Documents/Asilomar_2017/CNN/PE2.v
+L0 2
+R2
+r1
+!s85 0
+31
+Z66 !s108 1511586506.000000
+Z67 !s107 C:/Users/aaansari/Documents/Asilomar_2017/CNN/PE2.v|
+Z68 !s90 -reportprogress|30|-work|work|C:/Users/aaansari/Documents/Asilomar_2017/CNN/PE2.v|
+!i113 1
+R3
+R4
+n@p@e2
+vPE4
+R62
+!i10b 1
+!s100 GeFGBfTUFS55X`m64Z<[43
+Ia<b6g:aFA7]S:aPf>h2eM2
+R1
+R0
+Z69 w1508979954
+Z70 8C:/Users/aaansari/Documents/Asilomar_2017/CNN/PE4.v
+Z71 FC:/Users/aaansari/Documents/Asilomar_2017/CNN/PE4.v
+L0 2
+R2
+r1
+!s85 0
+31
+R66
+Z72 !s107 C:/Users/aaansari/Documents/Asilomar_2017/CNN/PE4.v|
+Z73 !s90 -reportprogress|30|-work|work|C:/Users/aaansari/Documents/Asilomar_2017/CNN/PE4.v|
+!i113 1
+R3
+R4
+n@p@e4
+vPE8
+R62
+!i10b 1
+!s100 WOFPhX8oiCEJ^Azi1@4@@3
+I@?hfzBoXSGJ2;H9[>cYFF3
+R1
+R0
+Z74 w1509005562
+Z75 8C:/Users/aaansari/Documents/Asilomar_2017/CNN/PE8.v
+Z76 FC:/Users/aaansari/Documents/Asilomar_2017/CNN/PE8.v
+L0 2
+R2
+r1
+!s85 0
+31
+R66
+Z77 !s107 C:/Users/aaansari/Documents/Asilomar_2017/CNN/PE8.v|
+Z78 !s90 -reportprogress|30|-work|work|C:/Users/aaansari/Documents/Asilomar_2017/CNN/PE8.v|
+!i113 1
+R3
+R4
+n@p@e8
+vPE_cont
+R45
+!i10b 1
+!s100 K8P`K3ljQ@a2o7kRJP`SF2
+Ih;`aJdEeHcXHg^GdLcC^_2
+R1
+R0
+w1508396205
+8C:/Users/aaansari/Documents/Asilomar_2017/CNN/PE_cont.v
+FC:/Users/aaansari/Documents/Asilomar_2017/CNN/PE_cont.v
+L0 1
+R2
+r1
+!s85 0
+31
+R49
+!s107 C:/Users/aaansari/Documents/Asilomar_2017/CNN/PE_cont.v|
+!s90 -reportprogress|30|-work|work|C:/Users/aaansari/Documents/Asilomar_2017/CNN/PE_cont.v|
+!i113 1
+R3
+R4
+n@p@e_cont
+vqadd
+R62
+!i10b 1
+!s100 M:;UbcmMi@6_nQ4PhnAa;2
+ID7JD`ZHh0RBW``gY_ZbOn1
+R1
+R0
+Z79 w1508235491
+Z80 8C:/Users/aaansari/Documents/Asilomar_2017/CNN/qadd.v
+Z81 FC:/Users/aaansari/Documents/Asilomar_2017/CNN/qadd.v
+L0 3
+R2
+r1
+!s85 0
+31
+R66
+Z82 !s107 C:/Users/aaansari/Documents/Asilomar_2017/CNN/qadd.v|
+Z83 !s90 -reportprogress|30|-work|work|C:/Users/aaansari/Documents/Asilomar_2017/CNN/qadd.v|
+!i113 1
+R3
+R4
+vqmult
+R62
+!i10b 1
+!s100 b_gV5aQPnTS1L3<i:QdPX2
+I>XG762bObE719BSP0f]E32
+R1
+R0
+Z84 w1508106214
+Z85 8C:/Users/aaansari/Documents/Asilomar_2017/CNN/qmult.v
+Z86 FC:/Users/aaansari/Documents/Asilomar_2017/CNN/qmult.v
+L0 2
+R2
+r1
+!s85 0
+31
+R66
+Z87 !s107 C:/Users/aaansari/Documents/Asilomar_2017/CNN/qmult.v|
+Z88 !s90 -reportprogress|30|-work|work|C:/Users/aaansari/Documents/Asilomar_2017/CNN/qmult.v|
+!i113 1
+R3
+R4
+vqmults
+Z89 !s110 1511586507
+!i10b 1
+!s100 GOTzDH;^FX>Q]j93kWn=h3
+IjmXI;iE7eHi@3aL0ZidVa0
+R1
+R0
+Z90 w1507631291
+Z91 8C:/Users/aaansari/Documents/Asilomar_2017/CNN/qmults.v
+Z92 FC:/Users/aaansari/Documents/Asilomar_2017/CNN/qmults.v
+L0 21
+R2
+r1
+!s85 0
+31
+Z93 !s108 1511586507.000000
+Z94 !s107 C:/Users/aaansari/Documents/Asilomar_2017/CNN/qmults.v|
+Z95 !s90 -reportprogress|30|-work|work|C:/Users/aaansari/Documents/Asilomar_2017/CNN/qmults.v|
+!i113 1
+R3
+R4
+vTest_add
+R62
+!i10b 1
+!s100 <Y[WAW7];gl>h5mc]m4bl0
+I_DeJbM1U>K3DGGdT>:acN3
+R1
+R0
+R79
+R80
+R81
+L0 56
+R2
+r1
+!s85 0
+31
+R66
+R82
+R83
+!i113 1
+R3
+R4
+n@test_add
+vTest_benes32
+R5
+!i10b 1
+!s100 lnYzmE@kYHiD=AC^^FRmV2
+IXiIJ3Qh9`M7i;R8Ln<MBA0
+R1
+R0
+R6
+R7
+R8
+L0 171
+R2
+r1
+!s85 0
+31
+R9
+R10
+R11
+!i113 1
+R3
+R4
+n@test_benes32
+vTest_benes4
+R12
+!i10b 1
+!s100 c^MK`?P^^@DDan89i@k@>3
+I@3VkKmh9e5OJ?dU3BQ=<80
+R1
+R0
+R13
+R14
+R15
+L0 50
+R2
+r1
+!s85 0
+31
+R16
+R17
+R18
+!i113 1
+R3
+R4
+n@test_benes4
+vTest_benes8
+R19
+!i10b 1
+!s100 a:aB@b?<W7aZohKW<8b<l3
+IiGmOUlN8IFK7F]9coofI:1
+R1
+R0
+R20
+R21
+R22
+L0 71
+R2
+r1
+!s85 0
+31
+R23
+R24
+R25
+!i113 1
+R3
+R4
+n@test_benes8
+vTest_crbar2
+R26
+!i10b 1
+!s100 eU:lgbSEEY[[]?o?F`LLM0
+IW^dU`MF70<3kFdQ1VEPbd1
+R1
+R0
+R27
+R28
+R29
+L0 36
+R2
+r1
+!s85 0
+31
+R30
+R31
+R32
+!i113 1
+R3
+R4
+n@test_crbar2
+vTest_input_configure
+R33
+!i10b 1
+!s100 f1gYjNTmb8Y6OoF4e<Hbm2
+INT9FVanmHI4<OSd4R;=4@3
+R1
+R0
+R35
+R36
+R37
+L0 303
+R2
+r1
+!s85 0
+31
+R34
+R38
+R39
+!i113 1
+R3
+R4
+n@test_input_configure
+vTest_layer1
+R33
+!i10b 1
+!s100 @O_Q4ChAeQM2Y]iXj>=V`0
+IH[e4=P4`_>^TH8_PL5@oZ0
+R1
+R0
+R40
+R41
+R42
+L0 312
+R2
+r1
+!s85 0
+31
+R34
+R43
+R44
+!i113 1
+R3
+R4
+n@test_layer1
+vTest_layer2
+R45
+!i10b 1
+!s100 kJH92AkWJZa2H13<]1JI:0
+I5BSF]lacQz6j5^6kzZo_62
+R1
+R0
+R46
+R47
+R48
+L0 364
+R2
+r1
+!s85 0
+31
+R49
+R50
+R51
+!i113 1
+R3
+R4
+n@test_layer2
+vTest_layer3
+R45
+!i10b 1
+!s100 hzzA2cVhnIU<kS]E6lQ<60
+I07=k<>kmBgQVFQjITSh6N0
+R1
+R0
+R52
+R53
+R54
+L0 366
+R2
+r1
+!s85 0
+31
+R49
+R55
+R56
+!i113 1
+R3
+R4
+n@test_layer3
+vTest_layer5
+R45
+!i10b 1
+!s100 5@AcT_aEFX<B76NO:e0U[0
+IfzRYI^iI3cDaV0XNSiGJa3
+R1
+R0
+R57
+R58
+R59
+L0 369
+R2
+r1
+!s85 0
+31
+R49
+R60
+R61
+!i113 1
+R3
+R4
+n@test_layer5
+vTest_mult
+R62
+!i10b 1
+!s100 8jNKiFVYlYh7meLSIP2iO3
+IEO=Xf9^ocm5>IT>eYfYj51
+R1
+R0
+R84
+R85
+R86
+L0 41
+R2
+r1
+!s85 0
+31
+R66
+R87
+R88
+!i113 1
+R3
+R4
+n@test_mult
+vTest_PE2
+R62
+!i10b 1
+!s100 3@jbQmY3G10kdR]bM;kiR3
+Io]D`Lka=IWRCozLhK1Vi73
+R1
+R0
+R63
+R64
+R65
+L0 78
+R2
+r1
+!s85 0
+31
+R66
+R67
+R68
+!i113 1
+R3
+R4
+n@test_@p@e2
+vTest_PE4
+R62
+!i10b 1
+!s100 i9?hmPM5b<QRzEQPFhlO@1
+IW6BdmE@d=:z=TUedo]ji]0
+R1
+R0
+R69
+R70
+R71
+L0 221
+R2
+r1
+!s85 0
+31
+R66
+R72
+R73
+!i113 1
+R3
+R4
+n@test_@p@e4
+vTest_PE8
+R62
+!i10b 1
+!s100 cf7mBnm9:SJ9oamA>3k>12
+ITzPUcoA8[a3aoT<^T26=M1
+R1
+R0
+R74
+R75
+R76
+L0 275
+R2
+r1
+!s85 0
+31
+R66
+R77
+R78
+!i113 1
+R3
+R4
+n@test_@p@e8
+vTestMultS
+R89
+!i10b 1
+!s100 `JIFNeo84:ed=Yfi?_BET1
+INCbj]L_RHN7UQ5@O07;kO1
+R1
+R0
+R90
+R91
+R92
+L0 95
+R2
+r1
+!s85 0
+31
+R93
+R94
+R95
+!i113 1
+R3
+R4
+n@test@mult@s
+vtime_counter
+Z96 !s110 1511643942
+!i10b 1
+!s100 [G=VVkXimF^HeO[YaQDE@2
+I[L3Vdzo^=PZWVXIcXNYA70
+R1
+R0
+Z97 w1508025138
+Z98 8C:/Users/aaansari/Documents/Asilomar_2017/CNN/time_counter.v
+Z99 FC:/Users/aaansari/Documents/Asilomar_2017/CNN/time_counter.v
+L0 1
+R2
+r1
+!s85 0
+31
+Z100 !s108 1511643942.000000
+Z101 !s107 C:/Users/aaansari/Documents/Asilomar_2017/CNN/time_counter.v|
+Z102 !s90 -reportprogress|300|-work|work|C:/Users/aaansari/Documents/Asilomar_2017/CNN/time_counter.v|
+!i113 1
+R3
+R4
+vtime_counter_test
+R96
+!i10b 1
+!s100 Y1^XOb>PQgZ6^Q4_bW>aY0
+I_M:=bFBbW1RTmXGS_1jbZ3
+R1
+R0
+R97
+R98
+R99
+L0 15
+R2
+r1
+!s85 0
+31
+R100
+R101
+R102
+!i113 1
+R3
+R4

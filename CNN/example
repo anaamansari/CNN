@@ -1,0 +1,35 @@
+for i=1:9
+  str_tmp=strcat('switch',num2str(i-1);
+ end
+
+method 1
+%% functional model
+
+for i=1:10
+y=(a+b);
+z=y*y;
+end
+
+%%ca test vectors
+y_tv=[0 y(1:end-1)]
+z_tv=[0 0 z(1:end-2)]
+
+method 2
+%% cycle accurate model
+y=0;
+tmp=0;
+
+for counter=1:10
+ 
+ z=y*y;
+ y= tmp;
+ tmp=a +b;
+
+ end
+
+
+ a b y z
+ 1 2 x  x
+ 2 3 3  x
+ 4 5 5  9
+

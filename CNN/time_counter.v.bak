@@ -1,0 +1,11 @@
+module time_counter(input clk, input rst,input stop, output reg [31:0] ticks) ;
+
+    always @(posedge clk & stop==0) begin
+        if (rst) begin
+            ticks <= 32'h00000000;
+        end 
+        else begin
+            ticks <= ticks + 1;
+        end
+    end
+endmodule

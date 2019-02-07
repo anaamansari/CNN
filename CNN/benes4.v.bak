@@ -1,0 +1,25 @@
+module benes4#(	
+//Parameterized values
+	parameter Q = 15,
+	parameter N = 32,
+	parameter m=3
+	)(
+output [N-1:0] y0,y1,y2,y3,
+input [N-1:0] x0,x1,x2,x3,
+input [m-1:0] s
+);
+
+wire [N-1:0] l0,l1,l2,l3;
+wire [N-1:0] m0,m1,m2,m3;
+
+crbar2 c0(.x1(x0),.x2(x1),.y1(l0),.y2(l1),.s(s[m-1 -2])); 
+crbar2 c1(.x1(x2),.x2(x3),.y1(l2),.y2(l3),.s(s[m-1 -2])); 
+
+crbar2 c2(.x1(l0),.x2(l2),.y1(m0),.y2(m1),.s(s[m-1 -1])); 
+crbar2 c3(.x1(l1),.x2(l3),.y1(m2),.y2(m3),.s(s[m-1 -1])); 
+
+crbar2 c4(.x1(m0),.x2(m2),.y1(y0),.y2(y1),.s(s[m-1])); 
+crbar2 c5(.x1(m1),.x2(m3),.y1(y2),.y2(y3),.s(s[m-1])); 
+
+endmodule
+
